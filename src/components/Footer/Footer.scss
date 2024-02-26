@@ -1,0 +1,24 @@
+.footer {
+    &__section{
+        background-color: rgba(0, 0, 0, 0.541);
+    }
+    &__horiz{
+        display: flex;
+        height: 350px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__base{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 7px;
+    }
+}

@@ -1,0 +1,46 @@
+$semiblack: rgba(0, 0, 0, 0.343);
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-image: url(./img/main.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.modal{
+    &__wrap{
+        display: flex;
+        width: 300px;
+        height: auto;
+        background-color: white;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        &__title{
+            text-align: center;
+        }
+        &__contacts{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        &__text{
+            text-align: center;
+        }
+    }
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
