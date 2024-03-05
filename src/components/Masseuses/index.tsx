@@ -24,7 +24,7 @@ const Masseuses = () => {
 
     return (
         <>
-            <div className='masseuses__section'>
+            <div className="masseuses__section">
                 <div className="masseuses__title h2">Masseuses</div>
             </div>
             <div className="gallery__carousel">
