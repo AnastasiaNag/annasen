@@ -42,6 +42,11 @@ table {
 	border-spacing: 0;
 }
 
+$dark-red: #590A03;
+$darker-red: #400702;
+$black: #080607;
+$grey: #9FA1A6;
+
 * {
 	font-family: "Alegreya Sans", sans-serif;
   }
@@ -89,3 +94,12 @@ table {
 	font-style: normal;
 	font-weight: 400;
   }
+
+  .section {
+	display: flex;
+	padding: 20px;
+  }
+
+.header__logo{
+	color: $dark-red;
+}

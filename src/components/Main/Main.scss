@@ -1,8 +1,25 @@
+@import '../../index.scss';
+
 .main{
     &-section{
-        display: flex;
         align-items: center;
         height: 500px;
-        padding: 70px 20px 0;
+        padding: 0 20px;
+        justify-content: space-between;
+        background-image: url('../../pages/Home/img/wide1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+}
+.main{
+& &-btn{
+    &__contact{
+        background-color: $darker-red;
+        color: white;
+        &:hover {
+            background-color: $dark-red;
+        }
+    }
+}
 }

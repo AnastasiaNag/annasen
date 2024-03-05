@@ -6,6 +6,7 @@ import Massage from '../../components/Massage';
 import Rules from '../../components/Rules';
 import Footer from '../../components/Footer';
 import './Home.scss';
+import React from 'react';
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
             <div>
                 <AboutUs />
             </div>
-            <div>
+            {/* <div>
                 <Masseuses />
             </div>
             <div>
@@ -27,7 +28,7 @@ const Home = () => {
             </div>
             <div>
                 <Rules />
-            </div>
+            </div> */}
             <div>
                 <Footer />
             </div>
