@@ -11,16 +11,20 @@ import './Masseuses.scss';
 const Masseuses = () => {
     
     const { goods } = useSelector((state: RootState) => state.good);
-    useEffect(() => {
-        getGood();
-    }, []);
     const dispatch = useDispatch<AppDispatch>();
-    const getGood = async () => {
+
+    useEffect(() => {
+      const getGood = async () => {
         dispatch(getGoods());
-    };
+      };
+    
+      getGood();
+    }, [dispatch]);
+    
+
     return (
         <>
-            <div className="masseuses__section">
+            <div className='masseuses__section'>
                 <div className="masseuses__title h2">Masseuses</div>
             </div>
             <div className="gallery__carousel">

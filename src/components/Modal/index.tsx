@@ -1,5 +1,4 @@
 import { Dialog, Button } from "@mui/material";
-import { useState } from "react";
 import './Modal.scss'
 
 const Modal = ({ open, onOpen, onClose } : any) => {

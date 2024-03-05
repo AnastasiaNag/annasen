@@ -1,6 +1,6 @@
 import './GalleryItem.scss';
 import Card from '@mui/material/Card';
-import { CardActionArea, colors } from '@mui/material';
+import { CardActionArea} from '@mui/material';
 import { IGood } from '../../../redux/Good/types';
 import { Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -45,9 +45,9 @@ const GalleryItem = ({ items }: any) => {
                                 </Card>
                             </SwiperSlide>
                         );
-                    } else if (index > 5) {
-                        return;
                     }
+
+                    return null
                 })}
             </Swiper>
             <button onClick={() => swiperRef.current?.slideNext()}>Next</button>

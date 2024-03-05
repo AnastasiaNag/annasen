@@ -4,7 +4,7 @@ import './Footer.scss';
 const Footer = () => {
     return (
         <div className="footer__section">
-            <div className='footer__horiz'>
+            <div className="footer__horiz">
                 <div className="footer__info h5">
                     <div className="footer__logo">LOGO</div>
                     <div className="footer__text">Open daily</div>
