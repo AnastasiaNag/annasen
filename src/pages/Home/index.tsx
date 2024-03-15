@@ -10,9 +10,9 @@ import React from 'react';
 
 const Home = () => {
 
-        const scroll = () => {
+        const scroll = (height: any) => {
             window.scrollTo({
-                top: document.body.scrollHeight,
+                top: height,
                 behavior: 'smooth'
             });
     }

@@ -26,6 +26,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	scroll-behavior: smooth;
+	scrollbar-width: 7px;
+
 }
 ol, ul {
 	list-style: none;
@@ -53,6 +55,18 @@ $img-black:#0A0F12;
 
 *{ 
 	font-family: "Alegreya Sans", sans-serif;
+	&::-webkit-scrollbar {
+		width: 7px;
+		&-track{
+		background: $black;
+		}
+		&-thumb {
+			background-color: #403820 ;
+			&:hover{
+				background-color: $gold;
+			}
+		}
+	  }
   }
 
   a {
@@ -143,3 +157,4 @@ $img-black:#0A0F12;
 		}
 	}
 }
+
