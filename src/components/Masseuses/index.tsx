@@ -1,10 +1,10 @@
+import React from 'react';
 import Card from '@mui/material/Card';
 import { CardActionArea } from '@mui/material';
 import { AppDispatch, RootState } from '../../redux/store';
 import { useDispatch, useSelector } from 'react-redux';
 import { getGoods } from '../../redux/Good';
 import { useEffect } from 'react';
-import React from 'react';
 import GalleryItem from './GalleryItem';
 import './Masseuses.scss';
 

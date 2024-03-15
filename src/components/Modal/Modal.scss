@@ -1,14 +1,24 @@
+@import '../../index.scss';
+
+
+
+
+
 .modal{
-    &__wrap{
+    & &__wrap{
         display: flex;
         width: 300px;
         height: auto;
-        background-color: white;
+        background-color: $black;
         flex-direction: column;
         padding: 20px;
         align-items: center;
         justify-content: center;
         gap: 20px;
+        color: $gold;
+        &__text{
+        color: $gold;
+        }
         &__title{
             text-align: center;
         }
@@ -18,9 +28,49 @@
             justify-content: center;
             align-items: center;
             gap: 20px;
+            color: white;
+            &__btn{
+                color: white;
+            }
         }
         &__text{
             text-align: center;
         }
     }
 }
+
+.btn{
+    &__wa{
+        background-color: #20a150;
+        &:hover{
+            background-color: #275e07;
+        }
+    }
+    &__tg{
+        background-color: #229ED9;
+        &:hover{
+            background-color: #145c7e;
+        }
+    }
+    &__mail{
+        background-color: #d98122;
+        &:hover{
+            background-color: #704416;
+        }
+    }
+    &__phone{
+        background-color: #d92222;
+        &:hover{
+            background-color: #6d1717;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .modal{
+        & &__wrap{
+            width: 200px;
+        }
+    }
+}
+

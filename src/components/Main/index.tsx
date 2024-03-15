@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './Main.scss';
-import { Button } from '@mui/material';
 import Modal from '../Modal';
 
 const MainSection = () => {
@@ -15,9 +14,9 @@ const MainSection = () => {
   return (
     <div className="main-section section">
       <div className="main__text">
-        <Button onClick={onOpen} className="main-btn__contact btn__style">
+        <button onClick={onOpen} className="btn btn__main h5">
           Make a reservation
-        </Button>
+        </button>
         <Modal open={open} onClose={onClose} onOpen={onOpen} />
       </div>
     </div>

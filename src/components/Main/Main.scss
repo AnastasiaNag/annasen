@@ -10,16 +10,4 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-}
-.main{
-& &-btn{
-    &__contact{
-        background-color: $darker-red;
-        color: white;
-        &:hover {
-            background-color: $dark-red;
-        }
-    }
-}
 }

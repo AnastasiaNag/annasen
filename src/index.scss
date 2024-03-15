@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	scroll-behavior: smooth;
 }
 ol, ul {
 	list-style: none;
@@ -46,53 +47,49 @@ $dark-red: #590A03;
 $darker-red: #400702;
 $black: #080607;
 $grey: #9FA1A6;
+$gold:#b79f58 ;
+$golder:#deb843 ;
+$img-black:#0A0F12;
 
-* {
+*{ 
 	font-family: "Alegreya Sans", sans-serif;
   }
+
   a {
 	text-decoration: none;
   }
   .h1 {
 	font-size: 72px;
 	font-style: bold;
-	font-weight: 400;
-	line-height: 72px;
+
   }
   
   .h2 {
 	font-size: 56px;
 	font-style: normal;
-	font-weight: 100;
   }
   
   .h3 {
 	font-size: 40px;
 	font-style: normal;
-	font-weight: 100;
   }
   
   .h4 {
 	font-size: 28px;
-	font-style: bold;
-	font-weight: 400;
   }
   
   .h5 {
 	font-size: 22px;
-	font-style: normal;
-	font-weight: 400;
+
   }
   
   .h6 {
 	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
+
   }
   .h7 {
 	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
+
   }
 
   .section {
@@ -100,6 +97,49 @@ $grey: #9FA1A6;
 	padding: 20px;
   }
 
-.header__logo{
-	color: $dark-red;
+.btn{
+		padding: 10px 20px;
+		height: auto;
+		border: 2px ridge $gold;
+		outline: none;
+		background-color: transparent;
+		color: rgb(255, 239, 145);
+		transition: 1s;
+		border-radius: 5px;
+		cursor: pointer;	  
+	  
+	 &:hover {
+		box-shadow: inset 0px 0px 25px $gold;
+	  }
+	&__contact{
+			display: flex;
+			height: 50px;
+			width: 250px;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50px;
+			border: 0;
+			transition: all 0.5s ease;		  
+		  &:hover {
+			letter-spacing: 2px;
+		  }
+		  
+		  &:active {
+			letter-spacing: 2px;
+			transform: scale(0.95);
+			transition: 100ms;
+		  } 
+	}
+}
+
+@media (max-width: 500px){
+    .btn{
+		padding: 5px 10px;
+		&__contact{
+			width: 180px;
+			&:hover {
+				letter-spacing: 1px;
+			  }
+		}
+	}
 }
