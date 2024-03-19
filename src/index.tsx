@@ -9,7 +9,7 @@ import './index.scss'
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: "/serenity",
     element: <Home />,
   }
 ]);

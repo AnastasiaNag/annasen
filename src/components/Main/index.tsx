@@ -14,7 +14,7 @@ const MainSection = () => {
   return (
     <div className="main-section section">
       <div className="main__text">
-        <div className='main-section__text h6'>
+        <div className="main-section__text h6">
         Top quality erotic massages are a must have, but there are plenty of other reasons to give us a chance
         </div>
         <button onClick={onOpen} className="btn btn__main h5">
