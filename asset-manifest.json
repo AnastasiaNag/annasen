@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/serenity/static/css/main.c16030f8.css",
+    "main.js": "/serenity/static/js/main.9c90eaa2.js",
+    "static/media/wide1.png": "/serenity/static/media/wide1.31e6b574b0eef46d6ad4.png",
+    "static/media/logo_bg.png": "/serenity/static/media/logo_bg.1ad77613f4e0f39bb647.png",
+    "index.html": "/serenity/index.html",
+    "main.c16030f8.css.map": "/serenity/static/css/main.c16030f8.css.map",
+    "main.9c90eaa2.js.map": "/serenity/static/js/main.9c90eaa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c16030f8.css",
+    "static/js/main.9c90eaa2.js"
+  ]
+}
