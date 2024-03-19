@@ -3,11 +3,37 @@
 .main{
     &-section{
         align-items: center;
+        justify-content: end;
         height: 500px;
         padding: 0 20px;
-        justify-content: space-between;
         background-image: url('../../pages/Home/img/wide1.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
+    &__text{
+        margin-right: 150px;
+        margin-top: 150px;
+        display: flex;
+        text-align: end;
+       align-items: end;
+        flex-direction: column;
+        color: rgb(254, 242, 169);
+        max-width: 400px;
+        line-height: 35px;
+        gap: 40px;
+    }
+}
+.btn__main{
+    max-width: 250px
+}
+
+@media (max-width: 600px){
+.main{
+    justify-content: center;
+    &__text{
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+}
 }

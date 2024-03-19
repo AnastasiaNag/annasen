@@ -17,7 +17,7 @@ const Modal = ({ open, onOpen, onClose } : any) => {
                         Contact via Telegram
                     </button>
                 </a>
-                <a href="mailto:vlad@webref.ru">
+                <a href="mailto:serenitymassagecz@gmail.com">
                     <button className="header__menu-btn__contact modal__wrap__contacts__btn btn__mail btn__contact" onClick={onOpen}>
                         Contact via E-mail
                     </button>

@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="footer__text">+420 722 579 584</div>
                     </a>
                     <a href="mailto:vlad@webref.ru">
-                        <div className="footer__text">uihdwuh@mail</div>
+                        <div className="footer__text">serenitymassagecz@gmail.com</div>
                     </a>
                     <a href="https://maps.app.goo.gl/A9r9N88hjq196snM7">
                         <div className="footer__text">Mala Štěpánská 9, 12000 Praha</div>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className="footer__text__opening">
                     <div className="footer__text h6">OPEN DAILY</div>
-                    <div className="footer__text h6"> from 12pm to 2am</div>
+                    <div className="footer__text h6"> 24/7</div>
                     </div>
                     <div className="footer__text">SPA AND MASSAGE</div>
                 </div>

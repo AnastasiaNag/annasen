@@ -52,6 +52,7 @@ $grey: #9FA1A6;
 $gold:#b79f58 ;
 $golder:#deb843 ;
 $img-black:#0A0F12;
+$light-gold:rgb(255, 239, 145);
 
 *{ 
 	font-family: "Alegreya Sans", sans-serif;
@@ -117,7 +118,7 @@ $img-black:#0A0F12;
 		border: 2px ridge $gold;
 		outline: none;
 		background-color: transparent;
-		color: rgb(255, 239, 145);
+		color: $light-gold;
 		transition: 1s;
 		border-radius: 5px;
 		cursor: pointer;	  
@@ -133,7 +134,9 @@ $img-black:#0A0F12;
 			align-items: center;
 			border-radius: 50px;
 			border: 0;
-			transition: all 0.5s ease;		  
+			transition: all 0.5s ease;		
+		cursor: pointer;	  
+
 		  &:hover {
 			letter-spacing: 2px;
 		  }
