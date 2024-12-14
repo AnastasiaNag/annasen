@@ -28,7 +28,7 @@ const Header = ({ scroll }: any) => {
               </button>
             );
           })}
-          <button className="btn btn__header h7" onClick={onOpen}>
+          <button className="btn btn__header h7" style={{ color: 'white' }} onClick={onOpen}>
             CONTACT
           </button>
           <Modal open={open} onClose={onClose} onOpen={onOpen} />
