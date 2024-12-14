@@ -4,7 +4,7 @@ import React from 'react';
 import Modal from '../Modal';
 
 const Header = ({ scroll }: any) => {
-  const MenuItemList = ['Were are we?'];
+  const MenuItemList = ['Who are we?'];
   const [open, setOpen] = useState<Boolean>(false);
 
   const onOpen = (): void => {
@@ -17,8 +17,8 @@ const Header = ({ scroll }: any) => {
   return (
     <header className="header">
       <div className="header__content">
-        <div className="header__logo" onClick={() => scroll(0)}>
-          <img className="header__logo" src={require('../../pages/Home/img/logo_bg.png')} alt="" />
+        <div className="header__logo h4" onClick={() => scroll(0)}>
+          <div>ANNASEN</div>
         </div>
         <div className="header__menu">
           {MenuItemList.map((item) => {

@@ -45,14 +45,14 @@ table {
 	border-spacing: 0;
 }
 
-$dark-red: #590A03;
-$darker-red: #400702;
-$black: #080607;
-$grey: #9FA1A6;
-$gold:#b79f58 ;
-$golder:#deb843 ;
-$img-black:#0A0F12;
-$light-gold:rgb(255, 239, 145);
+$dark-red: #0f0d5a;
+$darker-red: #6643f1;
+$black: #ffffff;
+$grey: #213d86;
+$gold:#d3a92e ;
+$golder:#e9b314 ;
+$img-black:#008ee6;
+$light-gold:rgb(46, 45, 45);
 
 *{ 
 	font-family: "Alegreya Sans", sans-serif;
@@ -105,6 +105,10 @@ $light-gold:rgb(255, 239, 145);
   .h7 {
 	font-size: 15px;
 
+  }
+
+  .h8{
+	font-size: 12px;
   }
 
   .section {

@@ -14,11 +14,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            gap: 40px;
         }
-    }
-    &__logo{
-        width: 140px;
-        height: 100%;
     }
     &__horiz{
         display: flex;
@@ -42,6 +39,7 @@
         text-align: center;
         padding: 20px;
         gap: 7px;
+        color: rgb(44, 40, 40);
     }
 }
 
